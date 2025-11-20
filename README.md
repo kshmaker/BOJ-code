@@ -29,3 +29,13 @@ https://kbj96.tistory.com/23
 https://life-with-coding.tistory.com/305
 
 https://dwaejinho.tistory.com/entry/C-STL-Map%EC%9D%98-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%82%AC%EC%9A%A9%EB%B2%95
+
+# Backtracking
+
+https://velog.io/@gayeong39/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-BackTracking
+
+### Permutation and Combination
+
+https://yabmoons.tistory.com/99
+https://yabmoons.tistory.com/100
+https://yabmoons.tistory.com/115
