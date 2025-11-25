@@ -1,25 +1,25 @@
 #include <iostream>
 #include <vector>
+#define MAX 5
 using namespace std;
 
-int n,m;
-int Arr[8];
-bool Select[8];
+int Arr[MAX];
+bool Select[MAX];
 vector<int> V;
 
 void Print(){
   for(int i=0; i<V.size(); i++){
     cout<<V[i]<<" ";
   }
-  cout<<"\n";
+  cout<<endl;
 }
 
 void DFS(int Cnt){
-  if(Cnt==m){
+  if(Cnt==3){
     Print();
     return;
   }
-  for(int i=0; i<n; i++){
+  for(int i=0; i<MAX; i++){
     if(Select[i] == true) continue;
     Select[i] = true;
     V.push_back(Arr[i]);
@@ -30,11 +30,7 @@ void DFS(int Cnt){
 }
 
 int main(){
-  ios::sync_with_stdio(0);
-	cin.tie(0);
-  cin>>n>>m;
-
-  for(int i=0; i<n; i++){
+  for(int i=0; i<MAX; i++){
     Arr[i]=i+1;
   }
   DFS(0);
